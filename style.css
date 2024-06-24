@@ -63,6 +63,8 @@
     --clr-texto-claro: #DAD3BE;
 }
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -74,22 +76,23 @@ body {
 }
 
 .borde-superior-izquierdo {
+    margin: 0.25rem;
     transform: rotate(90deg);
     justify-self: left;
 }
 
 .borde-superior-derecho {
-
+    margin: 0.25rem;
     transform: rotate(180deg);
 }
 
 .borde-inferior-izquierdo {
-
+    margin: 0.25rem;
     justify-self: left;
 }
 
 .borde-inferior-derecho {
-
+    margin: 0.25rem;
     transform: rotate(270deg);
 }
 
@@ -101,12 +104,13 @@ body {
 
 li {
     list-style: none;
+    font-size: x-large;
 }
 
 .valentina {
     font-family: "Dancing Script", cursive;
     color: var(--clr-texto-oscuro);
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 .titulo {
@@ -126,14 +130,29 @@ i {
     font-size: 2rem;
 }
 
+.xv {
+    font-size: 5rem;
+    color: var(--clr-texto-oscuro);
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .titulo-alias {
-    font-size: 30px;
+    font-size: 5rem;
     color: var(--clr-texto-oscuro);
     font-family: "Neuton", serif;
     font-weight: 400;
     font-style: normal;
 
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+.texto-regalo {
+    font-size: 3rem;
 }
 
 p {
@@ -145,8 +164,31 @@ media query
 */
 @media only screen and (max-width: 700px) {
     .valentina {
+        font-size: 5rem;
+    }
+
+    .xv {
         font-size: 3rem;
-        /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+
+    .titulo-alias {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .titulo-alias {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    h3 {
+        font-size: 2rem;
+    }
+
+    .texto-regalo {
+        font-size: 2rem;
     }
 }
 
