@@ -96,6 +96,7 @@ body {
 .contenedor-general {
     border: var(--clr-texto-oscuro) solid;
     border-radius: 1rem;
+
 }
 
 li {
