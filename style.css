@@ -180,14 +180,14 @@ media query
     .titulo-alias {
         font-size: 2rem;
     }
+
+    .texto-regalo {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     h3 {
-        font-size: 2rem;
-    }
-
-    .texto-regalo {
         font-size: 2rem;
     }
 }
