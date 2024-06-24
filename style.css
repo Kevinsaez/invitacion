@@ -70,7 +70,7 @@
 }
 
 body {
-    background-color: var(red);
+    background-color: var(--clr-fondo-oscuro);
 }
 
 .borde-superior-izquierdo {
