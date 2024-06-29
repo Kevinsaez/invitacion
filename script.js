@@ -1,4 +1,5 @@
-const colors = ["#fff2", "#fff4", "#fff7", "#fffc"];
+const colors = ["#808836", "#FFBF00", "#FF9A00", "#FAEF5D"];
+// const colors = ["#fff2", "#fff4", "#fff7", "#fffc"];
 const generateSpaceLayer = (size, selector, totalStars, duration) => {
 
     const layer = [];
