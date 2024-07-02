@@ -1,4 +1,4 @@
-const colors = ["#808836", "#FFBF00", "#FF9A00", "#FAEF5D"];
+const colors = ["#850F8D", "#C738BD", "#E49BFF", "#F8F9D7"];
 // const colors = ["#fff2", "#fff4", "#fff7", "#fffc"];
 const generateSpaceLayer = (size, selector, totalStars, duration) => {
 
@@ -21,6 +21,6 @@ const generateSpaceLayer = (size, selector, totalStars, duration) => {
 
 }
 
-generateSpaceLayer("2px", ".space-1", 200, "25s");
-generateSpaceLayer("3px", ".space-2", 100, "20s");
-generateSpaceLayer("6px", ".space-3", 25, "15s");
+generateSpaceLayer("3px", ".space-1", 200, "25s");
+generateSpaceLayer("4px", ".space-2", 100, "20s");
+generateSpaceLayer("7px", ".space-3", 25, "15s");
